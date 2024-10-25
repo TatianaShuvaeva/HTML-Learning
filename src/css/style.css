@@ -3,6 +3,10 @@
 
 }
 
+/* html {
+    font-size: 62.5%;
+} */
+
 p mark{
     color: #c91717;
 
@@ -12,7 +16,7 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.first {
+.first { 
     margin-top: 150px;
     color: blue;
     font-size: 16px;
@@ -31,19 +35,14 @@ h1, h2, h3 {
 }
 
 .box {
-    position: absolute;
-    z-index: 3;
-    top: 40px;
-    left: 60px;
-    /* display: inline-block; */
-    width: 300px;
-    min-height: 250px;
-    background-color: red;
+    width: 50vw;
+    min-height: 30vh;
+    background-color: gray;
     /* border-color: black;
     border-width: 5px;
     border-style: solid; */
     
-    border: 5px solid black;
+    border: 0.5rem solid black;
     /* border-top-color: blue; */
     padding: 50px 20px;
     margin: 20px ;
@@ -63,6 +62,24 @@ h1, h2, h3 {
     margin: 56px auto 28px auto;
 }
 
+.navigation a {
+    font-size: 1em;
+
+}
+ 
+.navigation li {
+    font-size: 10px;
+} 
+
+width 1200px
+height 700px
+
+1vw = 12px
+1vh = 7px
+
+1vmin = 7px
+1vmax =12px
+
 /* .navigation {
     position: relative;
     width: 300px;
@@ -74,17 +91,17 @@ h1, h2, h3 {
     position: absolute;
     top: 50px;
 } */
-.wrapper{
+/* .wrapper{
     position: relative;
     background-color: grey;
     width: 100%;
     height: 500px;
     padding: 30px;
 
-}
+} */
 
-.green {
+/* .green {
     background: green;
     left: 80px;
     z-index: 1;
-}
+} */
